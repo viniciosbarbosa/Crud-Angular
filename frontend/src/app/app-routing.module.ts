@@ -1,3 +1,4 @@
+import { ProductCreatComponent } from './components/product/product-creat/product-creat.component';
 import { componentFactoryName } from '@angular/compiler';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -11,7 +12,13 @@ const routes: Routes = [{
   {
   path:"products",
   component:ProductCrudComponent
-  }
+   },
+  {
+    path:"products/create",
+    component:ProductCreatComponent
+  },
+
+  
 ];
 
 @NgModule({
