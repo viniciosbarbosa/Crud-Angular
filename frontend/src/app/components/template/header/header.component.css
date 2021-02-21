@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    height:64px;
+    margin-bottom: 10px;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-height: 32px;
+}
+
+.header .title-group{
+    padding-left: 25px;
+}
+
+.header .title-group i{
+    padding-right: 10px;
+}
+
+.headericon{
+    color: #000000;
+}
+
+.headericon:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

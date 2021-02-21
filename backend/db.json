@@ -1,20 +1,17 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "caneta bic preta",
-      "prince": 5.89
+    "products":[{
+        "id":1,
+        "name":"caneta",
+        "price": 5.0
+    },{
+        "id":2,
+        "name":"lapis",
+        "price": 2.0
     },
     {
-      "id": 2,
-      "name": "notebook mac pro ",
-      "prince": 12000.89
-    },
-    {
-      "id": 3,
-      "name": "samsung s20",
-      "prince": 5000.89
+        "id":3,
+        "name":"borracha",
+        "price": 1.0
     }
-   
-  ]
+]
 }
