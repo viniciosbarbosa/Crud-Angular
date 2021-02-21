@@ -15,3 +15,13 @@
 .sidenav i{
     padding-right: 10px;
 }
+
+.mat-drawer-container{
+    background-color: #fff;
+}
+
+.content{
+    padding: 16px;
+    background-color: #fff;
+}
+
