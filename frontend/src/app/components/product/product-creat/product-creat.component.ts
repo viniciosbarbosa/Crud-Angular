@@ -15,6 +15,8 @@ export class ProductCreatComponent implements OnInit {
       price: 0
     }
 
+    
+
   constructor(private productService: ProductService,
     private router :Router) { }
 
@@ -32,5 +34,7 @@ export class ProductCreatComponent implements OnInit {
   cancel():void{
     this.router.navigate(['/products'])
   }
+
+ 
 
 }
