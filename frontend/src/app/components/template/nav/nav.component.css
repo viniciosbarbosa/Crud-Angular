@@ -1,11 +1,13 @@
 .container{
-    position:absolute;
+    position:relative;
     width: 100%; 
+    
 }
 
 .sidenav{
     background-color: #3f51b5;
     width: 13%;
+    
     
 }
 
@@ -24,8 +26,11 @@
 .content{
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 16px;
     background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+    height: 80vh;
 }
 
 .add{
