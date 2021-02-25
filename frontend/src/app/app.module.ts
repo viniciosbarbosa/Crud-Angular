@@ -25,12 +25,6 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
