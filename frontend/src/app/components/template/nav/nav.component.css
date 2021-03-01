@@ -6,9 +6,7 @@
 
 .sidenav{
     background-color: #3f51b5;
-    width: 13%;
-    
-    
+    width: 13% 
 }
 
 .sidenav a{
@@ -37,3 +35,57 @@
 padding-top: 4px;
 
 }
+
+@media only screen and (max-width: 900px) {
+    
+    .sidenav{
+        background-color: #3f51b5;
+        width: 16% 
+    }
+
+    .content{
+        margin-left: 16%  !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 745px) {
+    
+    .sidenav{
+        background-color: #3f51b5;
+        width: 19% 
+    }
+
+    .content{
+        margin-left: 19%  !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 650px) {
+    
+    .sidenav{
+        background-color: #3f51b5;
+        width: 21% 
+    }
+
+    .content{
+        margin-left: 21%  !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 550px) {
+    
+    .sidenav{
+        background-color: #3f51b5;
+        width: 11% ;
+        overflow-x: none !important;
+    }
+
+
+    .content{
+        margin-left: 11%  !important;
+    }
+
+  }
