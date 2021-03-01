@@ -7,3 +7,18 @@
 .home .subtitle{
     font-size: 1.1rem;
 }
+
+.home:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.addProduct{
+    width: 45%;
+    margin: 10px 10px 10px 10px;
+}
+
+.deleteProduct{
+    width: 45%;
+    margin: 10px 10px 10px 10px;
+}
